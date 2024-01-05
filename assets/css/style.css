@@ -1,36 +1,45 @@
-/**
-* Template Name: MyResume
-* Updated: Nov 17 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #ec280a;
 }
 
 a {
-  color: #0563bb;
+  color: #ec280a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #ec280a;
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
+@font-face {
+  font-family: cy_grotesk;
+  src: url(../types/kobuzan-cy-grotesk-grand-dark.otf);
+}
+
+h1, h2 {
+  font-family: cy_grotesk;
+}
+
+h3,h4,h5,h6 {
+  font-family: "coolvetica-b", sans-serif;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0.07em;
+word-spacing: 0.07em;
+
+}
+
+p, span, li {
+  
+  font-family: "coolvetica-r", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.07em;
+  word-spacing: 0.07em;
 }
 
 /*--------------------------------------------------------------
