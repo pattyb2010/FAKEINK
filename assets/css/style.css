@@ -145,11 +145,7 @@ p, span, li {
   }
 }
 
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -374,7 +370,7 @@ p, span, li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -390,7 +386,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #2e282d;
 }
 
 .section-title h2::before {
@@ -399,7 +395,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background:#ec280a;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -410,7 +406,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #ec280a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -427,7 +423,7 @@ section {
   background-color: #f5eae9 ;
   background-size: cover;
   position: relative;
-  padding: 20px 20px;
+  padding: 80px 80px;
 }
 
 .about:before {
