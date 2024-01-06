@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  color: #ec280a;
-}
 
 a {
   color: #ec280a;
@@ -145,11 +142,7 @@ p, span, li {
   }
 }
 
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -374,7 +367,7 @@ p, span, li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -390,7 +383,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #2e282d;
 }
 
 .section-title h2::before {
@@ -399,7 +392,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background:#ec280a;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -410,7 +403,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #ec280a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -427,7 +420,7 @@ section {
   background-color: #f5eae9 ;
   background-size: cover;
   position: relative;
-  padding: 20px 20px;
+  padding: 80px 80px;
 }
 
 .about:before {
@@ -485,12 +478,13 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: #2e282d;
+  padding-bottom: 20px;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
-  color: #2e282d;
+  color: #ec280a ;
 }
 
 .about .content ul li {
@@ -514,25 +508,32 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Cifras
 --------------------------------------------------------------*/
-.facts .count-box {
+
+#facts{
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/facts.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0 30px 0;
+}
+
+#facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  text-align: center !important;
 }
 
-.facts .count-box i {
+#facts .count-box i {
   position: absolute;
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
-  color: #fff;
+  background: #f5eae9;
+  color: #ec280a;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
@@ -541,18 +542,20 @@ section {
   height: 48px;
 }
 
-.facts .count-box span {
+#facts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #011426;
+  color: #2e282d;
 }
 
-.facts .count-box p {
+#facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-family: "coolvetica", sans-serif;
+  font-size: 18px;
+  font-weight: 500 ;
+  color: #2e282d;
 }
 
 /*--------------------------------------------------------------
