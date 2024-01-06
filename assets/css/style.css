@@ -565,7 +565,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #2e282d;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -575,7 +575,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: white;
+  background: #f5eae9;
   right: 0;
   left: 0;
   bottom: 0;
@@ -585,7 +585,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #ec280a;
   top: 0;
   border-radius: 0px;
 }
@@ -597,7 +597,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #f5eae9;
   transition: all 0.3s ease-in-out;
 }
 
@@ -608,7 +608,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #f5eae9;
 }
 
 .services .description {
@@ -619,11 +619,11 @@ section {
 
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
-  color: #fff;
+  color: #f5eae9;
 }
 
 .services .icon-box:hover .icon i {
-  color: #fff;
+  color: #f5eae9;
 }
 
 /*--------------------------------------------------------------
