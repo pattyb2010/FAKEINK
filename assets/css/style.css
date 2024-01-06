@@ -512,7 +512,8 @@ section {
 --------------------------------------------------------------*/
 
 #facts{
-  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8));
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/facts.jpg") fixed center center;
+  background-size: cover;
   padding: 60px 0 30px 0;
 }
 
