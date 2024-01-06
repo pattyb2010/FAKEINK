@@ -508,25 +508,31 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Cifras
 --------------------------------------------------------------*/
-.facts .count-box {
+
+#facts{
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8));
+  padding: 60px 0 30px 0;
+}
+
+#facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  text-align: center !important;
 }
 
-.facts .count-box i {
+#facts .count-box i {
   position: absolute;
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
-  color: #fff;
+  background: #f5eae9;
+  color: #ec280a;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
@@ -535,18 +541,20 @@ section {
   height: 48px;
 }
 
-.facts .count-box span {
+#facts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #011426;
+  color: #2e282d;
 }
 
-.facts .count-box p {
+#facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-family: "coolvetica", sans-serif;
+  font-size: 18px;
+  font-weight: 500 ;
+  color: #2e282d;
 }
 
 /*--------------------------------------------------------------
