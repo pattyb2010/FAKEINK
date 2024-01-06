@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  color: #ec280a;
-}
 
 a {
   color: #ec280a;
@@ -481,12 +478,13 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: #2e282d;
+  padding-bottom: 20px;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
-  color: #2e282d;
+  color: #ec280a ;
 }
 
 .about .content ul li {
