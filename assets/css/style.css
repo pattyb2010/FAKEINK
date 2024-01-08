@@ -561,6 +561,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: #f5eae9;
+  padding: 80px 80px;
+
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -592,6 +598,12 @@ section {
 
 .services .icon {
   margin-bottom: 15px;
+}
+
+.services .description {
+  color: #f5eae9;
+  font-family: "coolvetica", sans-serif;
+
 }
 
 .services .icon i {
@@ -626,106 +638,27 @@ section {
   color: #f5eae9;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
-}
-
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #45505b;
-}
-
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #0563bb;
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
   position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #0563bb;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio {
+  background-color: #f5eae9;
+  padding: 80px 80px;
+
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -735,7 +668,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #2e282d;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -748,14 +681,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
-  margin-bottom: 5px;
+  color: #f5eae9;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #ec280a;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -767,12 +699,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: #ec280a;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(46, 40, 45, 0.5);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -807,8 +739,8 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
+  border-top: 3px solid #f5eae9;
+  border-left: 3px solid #f5eae9;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -821,20 +753,20 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
+  border-bottom: 3px solid #f5eae9;
+  border-right: 3px solid #f5eae9;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #f5eae9;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #f5eae9;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -847,7 +779,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #f5eae9;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -855,7 +787,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #ec280a;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -943,139 +875,6 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
-}
-
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #45505b;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
-}
-
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
 }
 
 /*--------------------------------------------------------------
