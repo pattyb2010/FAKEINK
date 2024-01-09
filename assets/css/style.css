@@ -1,9 +1,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  color: #ec280a;
-}
 
 a {
   color: #ec280a;
@@ -145,11 +142,7 @@ p, span, li {
   }
 }
 
-@media (min-width: 991px) {
-  #main {
-    margin-left: 100px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -374,7 +367,7 @@ p, span, li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -390,7 +383,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #2e282d;
 }
 
 .section-title h2::before {
@@ -399,7 +392,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background:#ec280a;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -410,7 +403,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #ec280a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -427,7 +420,7 @@ section {
   background-color: #f5eae9 ;
   background-size: cover;
   position: relative;
-  padding: 20px 20px;
+  padding: 80px 80px;
 }
 
 .about:before {
@@ -485,12 +478,13 @@ section {
   font-weight: 600;
   font-size: 26px;
   color: #2e282d;
+  padding-bottom: 20px;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
-  color: #2e282d;
+  color: #ec280a ;
 }
 
 .about .content ul li {
@@ -514,25 +508,32 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Cifras
 --------------------------------------------------------------*/
-.facts .count-box {
+
+#facts{
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/facts.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0 30px 0;
+}
+
+#facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  text-align: center !important;
 }
 
-.facts .count-box i {
+#facts .count-box i {
   position: absolute;
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
-  color: #fff;
+  background: #f5eae9;
+  color: #ec280a;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
@@ -541,115 +542,111 @@ section {
   height: 48px;
 }
 
-.facts .count-box span {
+#facts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #011426;
+  color: #2e282d;
 }
 
-.facts .count-box p {
+#facts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
-}
-
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #45505b;
-}
-
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #0563bb;
-  position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
+  font-family: "coolvetica", sans-serif;
   font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #0563bb;
-  margin-bottom: 10px;
+  font-weight: 500 ;
+  color: #2e282d;
 }
 
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+  background-color: #f5eae9;
+  padding: 80px 80px;
+
 }
 
-.resume .resume-item ul {
-  padding-left: 20px;
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #2e282d;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
 }
 
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
+.services .icon-box::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
+  background: #f5eae9;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: #ec280a;
   top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin-bottom: 15px;
+}
+
+.services .description {
+  color: #f5eae9;
+  font-family: "coolvetica", sans-serif;
+
+}
+
+.services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #f5eae9;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #f5eae9;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+  color: #f5eae9;
+}
+
+.services .icon-box:hover .icon i {
+  color: #f5eae9;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
 }
 
 /*--------------------------------------------------------------
@@ -703,6 +700,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio {
+  background-color: #f5eae9;
+  padding: 80px 80px;
+
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -712,7 +716,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #2e282d;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -725,14 +729,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
-  margin-bottom: 5px;
+  color: #f5eae9;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #ec280a;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -744,12 +747,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: #ec280a;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(46, 40, 45, 0.5);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -784,8 +787,8 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
+  border-top: 3px solid #f5eae9;
+  border-left: 3px solid #f5eae9;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -798,20 +801,20 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
+  border-bottom: 3px solid #f5eae9;
+  border-right: 3px solid #f5eae9;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #f5eae9;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #f5eae9;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -824,7 +827,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #f5eae9;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -832,7 +835,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
+  color: #ec280a;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -923,143 +926,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Valoraciones
 --------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+.testimonials {
+  padding: 80px 80px;
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/diseño3.jpg") fixed center center;
+
 }
 
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #45505b;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
-}
-
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
-
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .section-header {
   margin-bottom: 40px;
+  
 }
 
 .testimonials .testimonials-carousel,
@@ -1074,7 +951,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid #f5eae9;
   margin: 0 auto;
 }
 
@@ -1082,18 +959,23 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #2e282d;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #f5eae9;
+  margin: 0 0 15px 0;
+}
+.testimonials .testimonial-item p {
+  font-size: 14px;
+  color: #f5eae9;
   margin: 0 0 15px 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #f5eae9;
   font-size: 26px;
 }
 
@@ -1123,13 +1005,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #f5eae9;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #f5eae9;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #2e282d;
 }
 
 @media (min-width: 992px) {
