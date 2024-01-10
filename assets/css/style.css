@@ -650,6 +650,55 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features {
+  padding: 80px 80px;
+  background-color: #2e282d;
+}
+
+.features .row+.row {
+  margin-top: 100px;
+}
+
+.features h2 {
+  color: #f5eae9;
+}
+
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ec280a;
+  font-family: coolvetica;
+}
+
+.features p {
+  color: #f5eae9;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.features ul li {
+  padding-bottom: 10px;
+  color: #f5eae9;
+}
+
+.features ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ec280a;
+}
+
+.features p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 
