@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body {
+  color: #ec280a;
+}
 
 a {
   color: #ec280a;
@@ -931,7 +934,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 80px;
-  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/diseño3.jpg") fixed center center;
+  background: linear-gradient(rgba(236, 40, 10, 0.8), rgba(234, 76, 52, 0.8)), url("../img/portfolio/diseño3.jpg") fixed center center;
 
 }
 
@@ -1080,37 +1083,30 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #92898b;
+  color: #2e282d;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: cy_grotesk ;
   padding: 0;
-  margin: 0 0 15px 0;
-}
-
-#footer p {
-  font-size: 15;
-  font-style: italic;
-  padding: 0;
-  margin: 0 0 40px 0;
+  margin: 25px 0 55px 0;
 }
 
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #ec280a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1123,15 +1119,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #ec280a;
   color: #fff;
   text-decoration: none;
 }
 
-#footer .copyright {
-  margin: 0 0 5px 0;
-}
-
-#footer .credits {
-  font-size: 13px;
-}
