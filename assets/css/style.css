@@ -370,7 +370,6 @@ p, span, li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -1123,3 +1122,27 @@ section {
   text-decoration: none;
 }
 
+@media (max-width: 400px) {
+  .about{
+    padding: 80px 30px;
+  }
+  .services {
+    padding: 80px 30px;
+  }
+  .features {
+    padding: 80px 30px;
+  }
+  .portfolio {
+    padding: 80px 30px;
+  }
+  .testimonials {
+    padding: 80px 30px;
+  }
+  .contact {
+    padding: 80px 30px;
+  }
+
+  .section-title h2{
+    font-size: 17px;
+  }
+}
